@@ -4,7 +4,7 @@
 #estilo_titulo {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     border-bottom: solid;
     border-color: black;
     border-width: 1px;
@@ -12,21 +12,29 @@
 }
 
 #datos {
-    
+    padding-top: 10%;
     max-width: 90%;
     height: 500px;
     text-align: center;
     margin: auto;
 }
 
-.conversioneseuro {
+.textopequeño {
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
     text-align: center;
     display: block;
 }
 
-.-conversioneseuro {
+
+.resultado {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    display: block;
+}
+
+.textogrande {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
     text-align: center;
@@ -56,5 +64,55 @@
 
 body {
     text-align: center;
+    margin: 0;
 }
 
+.tituloapp {
+    background-color: rgb(189, 189, 189);
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    box-shadow: 1px 1px 15px rgb(88, 88, 88);
+
+    /*border-bottom: solid;
+    border-color: black;
+    border-width: 1px;*/
+  }
+
+  li {
+    float: left;
+    color: black;
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(199, 199, 199);
+  }
+  
+  .active {
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+.tradingview-widget-container {
+    margin: auto;
+    text-align: center;
+}
